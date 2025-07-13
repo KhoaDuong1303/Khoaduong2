@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KHOA – Flower Photography</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+
+  <header>
+    <h1>My Flower Photos</h1>
+    <button id="toggle">&#9776;</button>
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <section class="hero">
+    <h2>The World of Flowers Through My Lens</h2>
+    <p>Capturing calmness, colors, and nature's gentle beauty 🌸</p>
+  </section>
+
+  
+  <section class="content">
+    <h3>Why I Love Flower Photography</h3>
+    <p>Each flower has its own unique charm. When I take pictures of them, it feels like I’m capturing a peaceful moment of nature. Photography helps me relax and connect with the world around me.</p>
+  </section>
+
+ 
+  <section class="cards">
+    <h3>Some of My Favorite Shots</h3>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="images/flower1.JPG" alt="Tulip">
+        <div class="card-text">
+          <h4>TULIP</h4>
+          <p>Bright red tulips basking under spring light.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="images/flower2.JPG" alt="Cherry Blossom">
+        <div class="card-text">
+          <h4>CHERRY BLOSSOM</h4>
+          <p>Soft petals like clouds in a dreamy sky.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="images/flower3.JPG" alt="Autumn Leaves">
+        <div class="card-text">
+          <h4>AUTUMN MOOD</h4>
+          <p>Golden leaves, warm breeze — a quiet fall moment.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="images/flower4.JPG" alt="Purple Tulip">
+        <div class="card-text">
+          <h4>PURPLE TULIP</h4>
+          <p>Soft lilac bloom with elegance and peace.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="video">
+    <h3>Behind the Scenes</h3>
+    <p>See how I capture nature’s details through my lens.</p>
+    <div class="container">
+      <iframe
+        src="https://www.youtube.com/embed/v9ZIBUEx8I4?si=ohpVBmAU5r_LsbqD"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 My Flower Photography – Captured with heart 🌷</p>
+  </footer>
+
+ 
+  <script>
+    const toggle = document.getElementById("toggle");
+    const menu = document.getElementById("menu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
